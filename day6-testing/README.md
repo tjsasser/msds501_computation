@@ -1,7 +1,7 @@
 # Day 6 — Write the Tests
 
 Last time (Day 4) you were handed a function and wrote tests for it. This time you've got a
-small module — your job is to find the cases worth testing, not just read tracebacks.
+small module — your job is to find the cases worth testing.
 
 ## Setup
 
@@ -16,27 +16,28 @@ small module — your job is to find the cases worth testing, not just read trac
   handle bad input.
 - `test_store_analytics.py` — your starter file. `pytest` and the module are already
   imported, and one test is already written to show you the pattern.
-- `sample_orders.csv` — a small sample data file, used for testing `load_orders_from_csv`.
+- `sample_orders.csv` — a small sample data file to understand the input data used for `load_orders_from_csv`.
 
 ## Your task
 
-Add your own tests to `test_store_analytics.py`, below the example. Aim for **8-10 tests**
-covering genuinely different cases — not eight variations on the same idea. Want the
-stretch goal? Push for **15**, and think about *why* a case is worth testing, not just how
-many you can write.
+Come up with your own tests for `store_analytics.py` -- that is the important thing I want you to practice. Aim for **5-10 tests**
+covering genuinely different cases — not eight cases on the same idea. Want a stretch goal? Push for **15**, and think about *why* a case is worth testing, not just how many you can write. 
 
-Most of your tests should be unit tests (one function, checked in isolation). Trying a test
-that exercises more than one function working together? That's an integration test — one or
-two of those is a nice stretch, not a requirement.
+Additionally, practice writing these tests in `test_store_analytics.py`, below the example. 
+
+Most of your tests should be unit tests (one function, checked in isolation). Want a stretch goal? Try one or
+two integration tests. But it is not a requirement.
 
 ## Before class
 
-Run your tests:
+Come to class with your test_store_analytics.py. 
+
+Optionally, run your tests and see if they pass:
 
 ```
 pytest -v
 ```
 
-Make sure everything passes. No need to commit, push, or submit anything — just keep the
+No need to commit, push, or submit anything — just keep the
 file on your laptop. Come to class ready to walk us through one or two tests you're proud
 of.
