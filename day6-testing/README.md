@@ -5,10 +5,9 @@ small module — your job is to find the cases worth testing, not just read trac
 
 ## Setup
 
-1. Fork this repo (top right → **Fork**)
-2. Clone your fork
-3. `cd` into this folder: `day6-testing/`
-4. `pip install pytest` if you don't already have it
+1. Clone this repo — no need to fork it this time
+2. `cd` into this folder: `day6-testing/`
+3. `pip install pytest` if you don't already have it
 
 ## What's here
 
@@ -30,7 +29,7 @@ Most of your tests should be unit tests (one function, checked in isolation). Tr
 that exercises more than one function working together? That's an integration test — one or
 two of those is a nice stretch, not a requirement.
 
-## Before you submit
+## Before class
 
 Run your tests:
 
@@ -38,8 +37,6 @@ Run your tests:
 pytest -v
 ```
 
-Make sure everything passes before you commit.
-
-## Submit
-
-Commit and push to your fork, then drop your fork URL in [submission sheet] by [deadline].
+Make sure everything passes. No need to commit, push, or submit anything — just keep the
+file on your laptop. Come to class ready to walk us through one or two tests you're proud
+of.
